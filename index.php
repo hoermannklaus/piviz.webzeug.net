@@ -1,7 +1,9 @@
 <!doctype html>
 <html lang="en">
 <head>
+	<?php require_once('./includes/gtmHead.php'); ?>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
 	<title>Visualize Pi - Color dots</title>
 	<meta name="description" content="A color dot visualization of Pi">
 	<meta name="author" content="Klaus Hoermann-Engl<hoermann.klaus@gmail.com>">
@@ -14,6 +16,7 @@
 	
 </head>
 <body>
+	<?php require_once('./includes/gtmBody.php'); ?>
 	<div id="dots"></div>
 	<div id="info">
 		<h2>Inspiration:</h2>
