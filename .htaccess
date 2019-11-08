@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} !=443
+RewriteRule ^(.*)$ https://piviz.webzeug.net/$1 [R=301,L]
