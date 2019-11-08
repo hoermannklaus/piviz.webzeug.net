@@ -39,7 +39,7 @@ $(function() {
 	//getWindowSizes();
 	//$(window).resize(getWindowSizes);
 
-	var pi = calculatePi(1003);
+	var pi = calculatePi(1000);
 	var len = pi.length;
 	for (var i=0; i<len; i++) {
 		if (pi[i] != '+') {
