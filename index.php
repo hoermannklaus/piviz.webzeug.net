@@ -4,15 +4,19 @@
 	<?php require_once('./includes/gtmHead.php'); ?>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+
+	<!-- Meta information -->
 	<title>Farbige Pi Visualisierung - webzeug.net</title>
 	<meta name="description" content="Eine farbige Visualisierung der ersten 1000 Stellen von Pi.">
-	<meta name="author" content="Klaus Hoermann-Engl<klaus@webzeug.net>">
-	<link rel="stylesheet" href="assets/css/styles.css">
+	<meta name="author" content="Klaus Hörmann-Engl<klaus@webzeug.net>">
 	
 	<!-- Facebook OpenGraph -->
-	<meta property="og:title" content="Visualize Pi - Color dots" />
-	<meta property="og:image" content="http://www.diegeneration.net/klaus/img/pivizcolordots.png" />
-	<meta property="og:description" content="A visualization of Pi's first 1000 digits to the right. Also you can easily find the Feynman point. What out for 6 consecutive circle in a brownish color." />
+	<meta property="og:title" content="Farbie Visualisierung von Pi - webzeug.net" />
+	<meta property="og:image" content="https://piviz.webzeug.net/assets/images/piviz.png" />
+	<meta property="og:description" content="Eine farbige Visualisierung der ersten 1000 Stellen der Zahl Pi. Ihr könnt den Feynman Punkt leicht ausmachen: Schaut einfach auf 6 aufeinander folgende braune Punkte." />
+
+	<!-- Header includes -->
+	<link rel="stylesheet" href="assets/css/styles.css">
 	
 </head>
 <body>
