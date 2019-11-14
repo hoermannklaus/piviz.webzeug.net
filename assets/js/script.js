@@ -43,7 +43,7 @@ $(function() {
 	var len = pi.length;
 	for (var i=0; i<len; i++) {
 		if (pi[i] != '+') {
-			$("#dots").append('<div class="dot"><div class="large-dot color' + pi[i] + '"></div><div class="small-dot color' + pi[i+1] + '"></div></div>');
+			$("#dots").append('<div class="dot"><div title="' + pi[i] + '" class="large-dot color' + pi[i] + '"></div><div class="small-dot color' + pi[i+1] + '"></div></div>');
 		}
 	}
 });
