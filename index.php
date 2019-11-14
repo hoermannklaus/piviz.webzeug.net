@@ -4,9 +4,9 @@
 	<?php require_once('./includes/gtmHead.php'); ?>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
-	<title>Visualize Pi - Color dots</title>
-	<meta name="description" content="A color dot visualization of Pi">
-	<meta name="author" content="Klaus Hoermann-Engl<hoermann.klaus@gmail.com>">
+	<title>Farbige Pi Visualisierung - webzeug.net</title>
+	<meta name="description" content="Eine farbige Visualisierung der ersten 1000 Stellen von Pi.">
+	<meta name="author" content="Klaus Hoermann-Engl<klaus@webzeug.net>">
 	<link rel="stylesheet" href="assets/css/styles.css">
 	
 	<!-- Facebook OpenGraph -->
