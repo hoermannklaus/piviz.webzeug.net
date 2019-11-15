@@ -1,3 +1,13 @@
+<?php
+require __DIR__ . '/vendor/autoload.php';
+
+$i18n = new i18n('lang/lang_{LANGUAGE}.json', 'langcache/', 'de');
+$i18n->init();
+
+$version = PivizWebzeugNet\ApplicationVersion::get();
+$language = $i18n->getAppliedLang();
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -6,14 +16,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
 
 	<!-- Meta information -->
-	<title>Farbige Pi Visualisierung - webzeug.net</title>
-	<meta name="description" content="Eine farbige Visualisierung der ersten 1000 Stellen von Pi.">
+	<title><?php echo L::appTitle . " - " . L::domain; ?></title>
+	<meta name="description" content="<?php echo L::description; ?>">
 	<meta name="author" content="Klaus Hörmann-Engl<klaus@webzeug.net>">
 	
 	<!-- Facebook OpenGraph -->
-	<meta property="og:title" content="Farbie Visualisierung von Pi - webzeug.net" />
+	<meta property="og:title" content="<?php echo L::appTitle . " - " . L::domain; ?>" />
 	<meta property="og:image" content="https://piviz.webzeug.net/assets/images/piviz.png" />
-	<meta property="og:description" content="Eine farbige Visualisierung der ersten 1000 Stellen der Zahl Pi. Ihr könnt den Feynman Punkt leicht ausmachen: Schaut einfach auf 6 aufeinander folgende braune Punkte." />
+	<meta property="og:description" content="<?php echo L::description; ?>" />
 
 	<!-- Header includes -->
 	<link rel="stylesheet" href="assets/css/styles.css">
